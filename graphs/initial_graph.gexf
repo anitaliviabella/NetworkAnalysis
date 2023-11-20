@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-11-20">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="role" type="string" />
+      <attribute id="2" title="place" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Hamlet" label="Hamlet">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="King Claudius" label="King Claudius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="King Hamlet" label="King Hamlet">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Queen Gertrude" label="Queen Gertrude">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Polonius" label="Polonius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Laertes" label="Laertes">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Ophelia" label="Ophelia">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Horatio" label="Horatio">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Rosencrantz" label="Rosencrantz">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Guildenstern" label="Guildenstern">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Fortinbras" label="Fortinbras">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Voltimand" label="Voltimand">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Cornelius" label="Cornelius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Marcellus" label="Marcellus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Bernardo" label="Bernardo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Francisco" label="Francisco">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Osric" label="Osric">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Reynaldo" label="Reynaldo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="Actors" label="Actors">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>
