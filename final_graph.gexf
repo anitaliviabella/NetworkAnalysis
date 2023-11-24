@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-11-23">
+  <meta lastmodifieddate="2023-11-24">
     <creator>NetworkX 3.0</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="interaction_weight" type="long" />
+    </attributes>
     <attributes mode="static" class="node">
       <attribute id="0" title="gender" type="string" />
     </attributes>
@@ -89,11 +92,6 @@
         </attvalues>
       </node>
       <node id="Guildenstern" label="Guildenstern">
-        <attvalues>
-          <attvalue for="0" value="Male" />
-        </attvalues>
-      </node>
-      <node id="Ambassadors" label="Ambassadors">
         <attvalues>
           <attvalue for="0" value="Male" />
         </attvalues>
@@ -193,13 +191,12 @@
           <attvalue for="0" value="Male" />
         </attvalues>
       </node>
-      <node id="Fortinbras" label="Fortinbras" />
-      <node id="Voltemand" label="Voltemand" />
-      <node id="Ambassadors from Norway" label="Ambassadors from Norway" />
-      <node id="Players (Actors)" label="Players (Actors)" />
-      <node id="Queen Margaret" label="Queen Margaret" />
-      <node id="Gentleman" label="Gentleman" />
-      <node id="Lord" label="Lord" />
+      <node id="Fortinbras" label="Fortinbras">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="King Hamlet" label="King Hamlet" />
     </nodes>
     <edges>
       <edge source="Hamlet" target="Marcellus" id="0" weight="4" />
@@ -211,181 +208,245 @@
       <edge source="Hamlet" target="Voltimand" id="6" weight="2" />
       <edge source="Hamlet" target="Lords" id="7" weight="1" />
       <edge source="Hamlet" target="Rosencrantz" id="8" weight="8" />
-      <edge source="Hamlet" target="Voltemand" id="9" weight="1" />
-      <edge source="Hamlet" target="Players (Actors)" id="10" weight="2" />
-      <edge source="Hamlet" target="Ophelia" id="11" weight="2" />
-      <edge source="Hamlet" target="Lucianus" id="12" weight="1" />
-      <edge source="Hamlet" target="Player King" id="13" weight="1" />
-      <edge source="Hamlet" target="Player Queen" id="14" weight="1" />
-      <edge source="Hamlet" target="Queen Margaret" id="15" weight="1" />
-      <edge source="Hamlet" target="Prince Fortinbras" id="16" weight="2" />
-      <edge source="Hamlet" target="Second Clown" id="17" weight="1" />
-      <edge source="Hamlet" target="Priest" id="18" weight="1" />
-      <edge source="Hamlet" target="Osric" id="19" weight="1" />
-      <edge source="Hamlet" target="Lord" id="20" weight="1" />
-      <edge source="King Claudius" target="Queen Gertrude" id="21" weight="10" />
-      <edge source="King Claudius" target="Polonius" id="22" weight="6" />
-      <edge source="King Claudius" target="Laertes" id="23" weight="5" />
-      <edge source="King Claudius" target="Voltimand" id="24" weight="2" />
-      <edge source="King Claudius" target="Lords" id="25" weight="1" />
-      <edge source="King Claudius" target="Marcellus" id="26" weight="1" />
-      <edge source="King Claudius" target="Rosencrantz" id="27" weight="7" />
-      <edge source="King Claudius" target="Voltemand" id="28" weight="1" />
-      <edge source="King Claudius" target="Players (Actors)" id="29" weight="2" />
-      <edge source="King Claudius" target="Ophelia" id="30" weight="3" />
-      <edge source="King Claudius" target="Lucianus" id="31" weight="1" />
-      <edge source="King Claudius" target="Player King" id="32" weight="1" />
-      <edge source="King Claudius" target="Player Queen" id="33" weight="1" />
-      <edge source="King Claudius" target="Messenger" id="34" weight="1" />
-      <edge source="King Claudius" target="Second Clown" id="35" weight="1" />
-      <edge source="King Claudius" target="Priest" id="36" weight="1" />
-      <edge source="King Claudius" target="Osric" id="37" weight="1" />
-      <edge source="King Claudius" target="Lord" id="38" weight="1" />
-      <edge source="King Claudius" target="Prince Fortinbras" id="39" weight="1" />
-      <edge source="Queen Gertrude" target="Voltimand" id="40" weight="2" />
-      <edge source="Queen Gertrude" target="Rosencrantz" id="41" weight="5" />
-      <edge source="Queen Gertrude" target="Voltemand" id="42" weight="1" />
-      <edge source="Queen Gertrude" target="Queen Margaret" id="43" weight="1" />
-      <edge source="Queen Gertrude" target="Second Clown" id="44" weight="1" />
-      <edge source="Horatio" target="Marcellus" id="45" weight="4" />
-      <edge source="Horatio" target="King Claudius" id="46" weight="5" />
-      <edge source="Horatio" target="Queen Gertrude" id="47" weight="5" />
-      <edge source="Horatio" target="Polonius" id="48" weight="2" />
-      <edge source="Horatio" target="Laertes" id="49" weight="4" />
-      <edge source="Horatio" target="Voltimand" id="50" weight="1" />
-      <edge source="Horatio" target="Lords" id="51" weight="1" />
-      <edge source="Horatio" target="Rosencrantz" id="52" weight="1" />
-      <edge source="Horatio" target="Lucianus" id="53" weight="1" />
-      <edge source="Horatio" target="Player King" id="54" weight="1" />
-      <edge source="Horatio" target="Player Queen" id="55" weight="1" />
-      <edge source="Horatio" target="Ophelia" id="56" weight="2" />
-      <edge source="Horatio" target="Servant" id="57" weight="1" />
-      <edge source="Horatio" target="Second Clown" id="58" weight="1" />
-      <edge source="Horatio" target="Priest" id="59" weight="1" />
-      <edge source="Horatio" target="Osric" id="60" weight="1" />
-      <edge source="Horatio" target="Lord" id="61" weight="1" />
-      <edge source="Horatio" target="Prince Fortinbras" id="62" weight="1" />
-      <edge source="Polonius" target="Queen Gertrude" id="63" weight="6" />
-      <edge source="Polonius" target="Voltimand" id="64" weight="2" />
-      <edge source="Polonius" target="Rosencrantz" id="65" weight="5" />
-      <edge source="Polonius" target="Voltemand" id="66" weight="1" />
-      <edge source="Polonius" target="Reynaldo" id="67" weight="1" />
-      <edge source="Polonius" target="Queen Margaret" id="68" weight="1" />
-      <edge source="Laertes" target="Queen Gertrude" id="69" weight="5" />
-      <edge source="Laertes" target="Polonius" id="70" weight="1" />
-      <edge source="Laertes" target="Voltimand" id="71" weight="1" />
-      <edge source="Laertes" target="Lords" id="72" weight="1" />
-      <edge source="Laertes" target="Marcellus" id="73" weight="1" />
-      <edge source="Laertes" target="Ophelia" id="74" weight="1" />
-      <edge source="Laertes" target="Messenger" id="75" weight="1" />
-      <edge source="Laertes" target="Second Clown" id="76" weight="1" />
-      <edge source="Laertes" target="Priest" id="77" weight="1" />
-      <edge source="Laertes" target="Osric" id="78" weight="1" />
-      <edge source="Laertes" target="Lord" id="79" weight="1" />
-      <edge source="Laertes" target="Prince Fortinbras" id="80" weight="1" />
-      <edge source="Ophelia" target="Polonius" id="81" weight="3" />
-      <edge source="Ophelia" target="Reynaldo" id="82" weight="1" />
-      <edge source="Ophelia" target="Queen Gertrude" id="83" weight="3" />
-      <edge source="Ophelia" target="Rosencrantz" id="84" weight="2" />
-      <edge source="Ophelia" target="Player King" id="85" weight="1" />
-      <edge source="Ophelia" target="Player Queen" id="86" weight="1" />
-      <edge source="Bernardo" target="Francisco" id="87" weight="1" />
-      <edge source="Bernardo" target="Marcellus" id="88" weight="2" />
-      <edge source="Bernardo" target="Horatio" id="89" weight="2" />
-      <edge source="Bernardo" target="Ghost" id="90" weight="1" />
-      <edge source="Bernardo" target="Fortinbras" id="91" weight="1" />
-      <edge source="Bernardo" target="Hamlet" id="92" weight="2" />
-      <edge source="Bernardo" target="King Claudius" id="93" weight="1" />
-      <edge source="Bernardo" target="Queen Gertrude" id="94" weight="1" />
-      <edge source="Bernardo" target="Polonius" id="95" weight="1" />
-      <edge source="Bernardo" target="Laertes" id="96" weight="1" />
-      <edge source="Bernardo" target="Voltimand" id="97" weight="1" />
-      <edge source="Bernardo" target="Cornelius" id="98" weight="1" />
-      <edge source="Bernardo" target="Lords" id="99" weight="1" />
+      <edge source="Hamlet" target="Ophelia" id="9" weight="2" />
+      <edge source="Hamlet" target="Lucianus" id="10" weight="1" />
+      <edge source="Hamlet" target="Player King" id="11" weight="1" />
+      <edge source="Hamlet" target="Player Queen" id="12" weight="1" />
+      <edge source="Hamlet" target="Prince Fortinbras" id="13" weight="2" />
+      <edge source="Hamlet" target="Second Clown" id="14" weight="1" />
+      <edge source="Hamlet" target="Priest" id="15" weight="1" />
+      <edge source="Hamlet" target="Osric" id="16" weight="1" />
+      <edge source="Hamlet" target="Hamlet" id="17">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Hamlet" target="King Hamlet" id="18" />
+      <edge source="King Claudius" target="Queen Gertrude" id="19" weight="10" />
+      <edge source="King Claudius" target="Polonius" id="20" weight="6" />
+      <edge source="King Claudius" target="Laertes" id="21" weight="5" />
+      <edge source="King Claudius" target="Voltimand" id="22" weight="2" />
+      <edge source="King Claudius" target="Lords" id="23" weight="1" />
+      <edge source="King Claudius" target="Marcellus" id="24" weight="1" />
+      <edge source="King Claudius" target="Rosencrantz" id="25" weight="7" />
+      <edge source="King Claudius" target="Ophelia" id="26" weight="3" />
+      <edge source="King Claudius" target="Lucianus" id="27" weight="1" />
+      <edge source="King Claudius" target="Player King" id="28" weight="1" />
+      <edge source="King Claudius" target="Player Queen" id="29" weight="1" />
+      <edge source="King Claudius" target="Messenger" id="30" weight="1" />
+      <edge source="King Claudius" target="Second Clown" id="31" weight="1" />
+      <edge source="King Claudius" target="Priest" id="32" weight="1" />
+      <edge source="King Claudius" target="Osric" id="33" weight="1" />
+      <edge source="King Claudius" target="Prince Fortinbras" id="34" weight="1" />
+      <edge source="King Claudius" target="King Claudius" id="35">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="King Hamlet" id="36" />
+      <edge source="Queen Gertrude" target="Voltimand" id="37" weight="2" />
+      <edge source="Queen Gertrude" target="Rosencrantz" id="38" weight="5" />
+      <edge source="Queen Gertrude" target="Second Clown" id="39" weight="1" />
+      <edge source="Queen Gertrude" target="Queen Gertrude" id="40">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Queen Gertrude" target="King Hamlet" id="41" />
+      <edge source="Horatio" target="Marcellus" id="42" weight="4" />
+      <edge source="Horatio" target="King Claudius" id="43" weight="5" />
+      <edge source="Horatio" target="Queen Gertrude" id="44" weight="5" />
+      <edge source="Horatio" target="Polonius" id="45" weight="2" />
+      <edge source="Horatio" target="Laertes" id="46" weight="4" />
+      <edge source="Horatio" target="Voltimand" id="47" weight="1" />
+      <edge source="Horatio" target="Lords" id="48" weight="1" />
+      <edge source="Horatio" target="Rosencrantz" id="49" weight="1" />
+      <edge source="Horatio" target="Lucianus" id="50" weight="1" />
+      <edge source="Horatio" target="Player King" id="51" weight="1" />
+      <edge source="Horatio" target="Player Queen" id="52" weight="1" />
+      <edge source="Horatio" target="Ophelia" id="53" weight="2" />
+      <edge source="Horatio" target="Servant" id="54" weight="1" />
+      <edge source="Horatio" target="Second Clown" id="55" weight="1" />
+      <edge source="Horatio" target="Priest" id="56" weight="1" />
+      <edge source="Horatio" target="Osric" id="57" weight="1" />
+      <edge source="Horatio" target="Prince Fortinbras" id="58" weight="1" />
+      <edge source="Horatio" target="Horatio" id="59">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Polonius" target="Queen Gertrude" id="60" weight="6" />
+      <edge source="Polonius" target="Voltimand" id="61" weight="2" />
+      <edge source="Polonius" target="Rosencrantz" id="62" weight="5" />
+      <edge source="Polonius" target="Reynaldo" id="63" weight="1" />
+      <edge source="Polonius" target="Polonius" id="64">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Polonius" target="Ophelia" id="65" />
+      <edge source="Polonius" target="Laertes" id="66" />
+      <edge source="Laertes" target="Queen Gertrude" id="67" weight="5" />
+      <edge source="Laertes" target="Polonius" id="68" weight="1" />
+      <edge source="Laertes" target="Voltimand" id="69" weight="1" />
+      <edge source="Laertes" target="Lords" id="70" weight="1" />
+      <edge source="Laertes" target="Marcellus" id="71" weight="1" />
+      <edge source="Laertes" target="Ophelia" id="72" weight="1" />
+      <edge source="Laertes" target="Messenger" id="73" weight="1" />
+      <edge source="Laertes" target="Second Clown" id="74" weight="1" />
+      <edge source="Laertes" target="Priest" id="75" weight="1" />
+      <edge source="Laertes" target="Osric" id="76" weight="1" />
+      <edge source="Laertes" target="Prince Fortinbras" id="77" weight="1" />
+      <edge source="Laertes" target="Laertes" id="78">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ophelia" target="Polonius" id="79" weight="3" />
+      <edge source="Ophelia" target="Reynaldo" id="80" weight="1" />
+      <edge source="Ophelia" target="Queen Gertrude" id="81" weight="3" />
+      <edge source="Ophelia" target="Rosencrantz" id="82" weight="2" />
+      <edge source="Ophelia" target="Player King" id="83" weight="1" />
+      <edge source="Ophelia" target="Player Queen" id="84" weight="1" />
+      <edge source="Ophelia" target="Ophelia" id="85">
+        <attvalues>
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="Bernardo" target="Francisco" id="86" weight="1" />
+      <edge source="Bernardo" target="Marcellus" id="87" weight="2" />
+      <edge source="Bernardo" target="Horatio" id="88" weight="2" />
+      <edge source="Bernardo" target="Ghost" id="89" weight="1" />
+      <edge source="Bernardo" target="Fortinbras" id="90" weight="1" />
+      <edge source="Bernardo" target="Hamlet" id="91" weight="2" />
+      <edge source="Bernardo" target="King Claudius" id="92" weight="1" />
+      <edge source="Bernardo" target="Queen Gertrude" id="93" weight="1" />
+      <edge source="Bernardo" target="Polonius" id="94" weight="1" />
+      <edge source="Bernardo" target="Laertes" id="95" weight="1" />
+      <edge source="Bernardo" target="Voltimand" id="96" weight="1" />
+      <edge source="Bernardo" target="Cornelius" id="97" weight="1" />
+      <edge source="Bernardo" target="Lords" id="98" weight="1" />
+      <edge source="Bernardo" target="Bernardo" id="99">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
       <edge source="Francisco" target="Marcellus" id="100" weight="1" />
       <edge source="Francisco" target="Horatio" id="101" weight="1" />
       <edge source="Francisco" target="Ghost" id="102" weight="1" />
       <edge source="Francisco" target="Hamlet" id="103" weight="1" />
-      <edge source="Marcellus" target="Queen Gertrude" id="104" weight="1" />
-      <edge source="Marcellus" target="Polonius" id="105" weight="1" />
-      <edge source="Marcellus" target="Voltimand" id="106" weight="1" />
-      <edge source="Ghost" target="Marcellus" id="107" weight="3" />
-      <edge source="Ghost" target="Horatio" id="108" weight="3" />
-      <edge source="Ghost" target="Hamlet" id="109" weight="4" />
-      <edge source="Ghost" target="Queen Margaret" id="110" weight="1" />
-      <edge source="Ghost" target="Polonius" id="111" weight="1" />
-      <edge source="Ghost" target="Queen Gertrude" id="112" weight="1" />
-      <edge source="Lords" target="Queen Gertrude" id="113" weight="1" />
-      <edge source="Lords" target="Polonius" id="114" weight="1" />
-      <edge source="Lords" target="Voltimand" id="115" weight="1" />
-      <edge source="Lords" target="Marcellus" id="116" weight="1" />
-      <edge source="Attendants" target="King Claudius" id="117" weight="3" />
-      <edge source="Attendants" target="Queen Gertrude" id="118" weight="3" />
-      <edge source="Attendants" target="Hamlet" id="119" weight="3" />
-      <edge source="Attendants" target="Polonius" id="120" weight="3" />
-      <edge source="Attendants" target="Laertes" id="121" weight="1" />
-      <edge source="Attendants" target="Voltimand" id="122" weight="2" />
-      <edge source="Attendants" target="Cornelius" id="123" weight="3" />
-      <edge source="Attendants" target="Lords" id="124" weight="1" />
-      <edge source="Attendants" target="Horatio" id="125" weight="1" />
-      <edge source="Attendants" target="Marcellus" id="126" weight="1" />
-      <edge source="Attendants" target="Bernardo" id="127" weight="1" />
-      <edge source="Attendants" target="Rosencrantz" id="128" weight="2" />
-      <edge source="Attendants" target="Guildenstern" id="129" weight="2" />
-      <edge source="Attendants" target="Voltemand" id="130" weight="1" />
-      <edge source="Attendants" target="Players (Actors)" id="131" weight="2" />
+      <edge source="Francisco" target="Francisco" id="104">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Marcellus" target="Queen Gertrude" id="105" weight="1" />
+      <edge source="Marcellus" target="Polonius" id="106" weight="1" />
+      <edge source="Marcellus" target="Voltimand" id="107" weight="1" />
+      <edge source="Marcellus" target="Marcellus" id="108">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ghost" target="Marcellus" id="109" weight="3" />
+      <edge source="Ghost" target="Horatio" id="110" weight="3" />
+      <edge source="Ghost" target="Hamlet" id="111" weight="4" />
+      <edge source="Ghost" target="Polonius" id="112" weight="1" />
+      <edge source="Ghost" target="Queen Gertrude" id="113" weight="1" />
+      <edge source="Ghost" target="Ghost" id="114">
+        <attvalues>
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="Queen Gertrude" id="115" weight="1" />
+      <edge source="Lords" target="Polonius" id="116" weight="1" />
+      <edge source="Lords" target="Voltimand" id="117" weight="1" />
+      <edge source="Lords" target="Marcellus" id="118" weight="1" />
+      <edge source="Attendants" target="King Claudius" id="119" weight="3" />
+      <edge source="Attendants" target="Queen Gertrude" id="120" weight="3" />
+      <edge source="Attendants" target="Hamlet" id="121" weight="3" />
+      <edge source="Attendants" target="Polonius" id="122" weight="3" />
+      <edge source="Attendants" target="Laertes" id="123" weight="1" />
+      <edge source="Attendants" target="Voltimand" id="124" weight="2" />
+      <edge source="Attendants" target="Cornelius" id="125" weight="3" />
+      <edge source="Attendants" target="Lords" id="126" weight="1" />
+      <edge source="Attendants" target="Horatio" id="127" weight="1" />
+      <edge source="Attendants" target="Marcellus" id="128" weight="1" />
+      <edge source="Attendants" target="Bernardo" id="129" weight="1" />
+      <edge source="Attendants" target="Rosencrantz" id="130" weight="2" />
+      <edge source="Attendants" target="Guildenstern" id="131" weight="2" />
       <edge source="Attendants" target="First Player" id="132" weight="2" />
-      <edge source="Rosencrantz" target="Voltemand" id="133" weight="1" />
-      <edge source="Rosencrantz" target="Voltimand" id="134" weight="1" />
+      <edge source="Rosencrantz" target="Voltimand" id="133" weight="1" />
+      <edge source="Rosencrantz" target="Rosencrantz" id="134">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
       <edge source="Guildenstern" target="King Claudius" id="135" weight="7" />
       <edge source="Guildenstern" target="Queen Gertrude" id="136" weight="5" />
       <edge source="Guildenstern" target="Rosencrantz" id="137" weight="9" />
       <edge source="Guildenstern" target="Polonius" id="138" weight="5" />
-      <edge source="Guildenstern" target="Voltemand" id="139" weight="1" />
-      <edge source="Guildenstern" target="Hamlet" id="140" weight="8" />
-      <edge source="Guildenstern" target="Players (Actors)" id="141" weight="2" />
-      <edge source="Guildenstern" target="Voltimand" id="142" weight="1" />
-      <edge source="Guildenstern" target="Ophelia" id="143" weight="2" />
-      <edge source="Guildenstern" target="Horatio" id="144" weight="1" />
-      <edge source="Guildenstern" target="Lucianus" id="145" weight="1" />
-      <edge source="Guildenstern" target="Player King" id="146" weight="1" />
-      <edge source="Guildenstern" target="Player Queen" id="147" weight="1" />
-      <edge source="Guildenstern" target="Prince Fortinbras" id="148" weight="1" />
+      <edge source="Guildenstern" target="Hamlet" id="139" weight="8" />
+      <edge source="Guildenstern" target="Voltimand" id="140" weight="1" />
+      <edge source="Guildenstern" target="Ophelia" id="141" weight="2" />
+      <edge source="Guildenstern" target="Horatio" id="142" weight="1" />
+      <edge source="Guildenstern" target="Lucianus" id="143" weight="1" />
+      <edge source="Guildenstern" target="Player King" id="144" weight="1" />
+      <edge source="Guildenstern" target="Player Queen" id="145" weight="1" />
+      <edge source="Guildenstern" target="Prince Fortinbras" id="146" weight="1" />
+      <edge source="Guildenstern" target="Guildenstern" id="147">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Players" target="Players" id="148">
+        <attvalues>
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </edge>
       <edge source="First Player" target="King Claudius" id="149" weight="3" />
       <edge source="First Player" target="Queen Gertrude" id="150" weight="3" />
       <edge source="First Player" target="Rosencrantz" id="151" weight="3" />
       <edge source="First Player" target="Guildenstern" id="152" weight="3" />
       <edge source="First Player" target="Polonius" id="153" weight="3" />
-      <edge source="First Player" target="Voltemand" id="154" weight="1" />
-      <edge source="First Player" target="Hamlet" id="155" weight="3" />
-      <edge source="First Player" target="Players (Actors)" id="156" weight="2" />
-      <edge source="First Player" target="Voltimand" id="157" weight="1" />
-      <edge source="First Player" target="Horatio" id="158" weight="1" />
-      <edge source="First Player" target="Lucianus" id="159" weight="1" />
-      <edge source="First Player" target="Player King" id="160" weight="1" />
-      <edge source="First Player" target="Player Queen" id="161" weight="1" />
-      <edge source="First Player" target="Ophelia" id="162" weight="1" />
-      <edge source="Lucianus" target="Polonius" id="163" weight="1" />
-      <edge source="Lucianus" target="Rosencrantz" id="164" weight="1" />
-      <edge source="Lucianus" target="Queen Gertrude" id="165" weight="1" />
-      <edge source="Lucianus" target="Player King" id="166" weight="1" />
-      <edge source="Lucianus" target="Player Queen" id="167" weight="1" />
-      <edge source="Lucianus" target="Ophelia" id="168" weight="1" />
-      <edge source="Player King" target="Polonius" id="169" weight="1" />
-      <edge source="Player King" target="Rosencrantz" id="170" weight="1" />
-      <edge source="Player King" target="Queen Gertrude" id="171" weight="1" />
-      <edge source="Player King" target="Player Queen" id="172" weight="1" />
-      <edge source="Player Queen" target="Polonius" id="173" weight="1" />
-      <edge source="Player Queen" target="Rosencrantz" id="174" weight="1" />
-      <edge source="Player Queen" target="Queen Gertrude" id="175" weight="1" />
-      <edge source="Prince Fortinbras" target="Rosencrantz" id="176" weight="1" />
-      <edge source="Prince Fortinbras" target="Queen Gertrude" id="177" weight="1" />
-      <edge source="Captain" target="Prince Fortinbras" id="178" weight="1" />
-      <edge source="Captain" target="Hamlet" id="179" weight="1" />
-      <edge source="Captain" target="Rosencrantz" id="180" weight="1" />
-      <edge source="Captain" target="Guildenstern" id="181" weight="1" />
-      <edge source="First Sailor" target="Horatio" id="182" weight="1" />
-      <edge source="First Sailor" target="Servant" id="183" weight="1" />
+      <edge source="First Player" target="Hamlet" id="154" weight="3" />
+      <edge source="First Player" target="Voltimand" id="155" weight="1" />
+      <edge source="First Player" target="Horatio" id="156" weight="1" />
+      <edge source="First Player" target="Lucianus" id="157" weight="1" />
+      <edge source="First Player" target="Player King" id="158" weight="1" />
+      <edge source="First Player" target="Player Queen" id="159" weight="1" />
+      <edge source="First Player" target="Ophelia" id="160" weight="1" />
+      <edge source="First Player" target="First Player" id="161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Lucianus" target="Polonius" id="162" weight="1" />
+      <edge source="Lucianus" target="Rosencrantz" id="163" weight="1" />
+      <edge source="Lucianus" target="Queen Gertrude" id="164" weight="1" />
+      <edge source="Lucianus" target="Player King" id="165" weight="1" />
+      <edge source="Lucianus" target="Player Queen" id="166" weight="1" />
+      <edge source="Lucianus" target="Ophelia" id="167" weight="1" />
+      <edge source="Player King" target="Polonius" id="168" weight="1" />
+      <edge source="Player King" target="Rosencrantz" id="169" weight="1" />
+      <edge source="Player King" target="Queen Gertrude" id="170" weight="1" />
+      <edge source="Player King" target="Player Queen" id="171" weight="1" />
+      <edge source="Player Queen" target="Polonius" id="172" weight="1" />
+      <edge source="Player Queen" target="Rosencrantz" id="173" weight="1" />
+      <edge source="Player Queen" target="Queen Gertrude" id="174" weight="1" />
+      <edge source="Prince Fortinbras" target="Rosencrantz" id="175" weight="1" />
+      <edge source="Prince Fortinbras" target="Queen Gertrude" id="176" weight="1" />
+      <edge source="Captain" target="Prince Fortinbras" id="177" weight="1" />
+      <edge source="Captain" target="Hamlet" id="178" weight="1" />
+      <edge source="Captain" target="Rosencrantz" id="179" weight="1" />
+      <edge source="Captain" target="Guildenstern" id="180" weight="1" />
+      <edge source="First Sailor" target="Horatio" id="181" weight="1" />
+      <edge source="First Sailor" target="Servant" id="182" weight="1" />
+      <edge source="First Sailor" target="First Sailor" id="183">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
       <edge source="First Clown" target="Second Clown" id="184" weight="1" />
       <edge source="First Clown" target="Hamlet" id="185" weight="1" />
       <edge source="First Clown" target="Horatio" id="186" weight="1" />
@@ -401,10 +462,14 @@
       <edge source="First Ambassador" target="Queen Gertrude" id="196" weight="1" />
       <edge source="First Ambassador" target="Laertes" id="197" weight="1" />
       <edge source="First Ambassador" target="Osric" id="198" weight="1" />
-      <edge source="First Ambassador" target="Lord" id="199" weight="1" />
-      <edge source="First Ambassador" target="Prince Fortinbras" id="200" weight="1" />
-      <edge source="Osric" target="Queen Gertrude" id="201" weight="1" />
-      <edge source="Osric" target="Prince Fortinbras" id="202" weight="1" />
+      <edge source="First Ambassador" target="Prince Fortinbras" id="199" weight="1" />
+      <edge source="Osric" target="Queen Gertrude" id="200" weight="1" />
+      <edge source="Osric" target="Prince Fortinbras" id="201" weight="1" />
+      <edge source="Osric" target="Osric" id="202">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
       <edge source="Cornelius" target="King Claudius" id="203" weight="3" />
       <edge source="Cornelius" target="Queen Gertrude" id="204" weight="3" />
       <edge source="Cornelius" target="Hamlet" id="205" weight="3" />
@@ -416,40 +481,23 @@
       <edge source="Cornelius" target="Marcellus" id="211" weight="1" />
       <edge source="Cornelius" target="Rosencrantz" id="212" weight="2" />
       <edge source="Cornelius" target="Guildenstern" id="213" weight="2" />
-      <edge source="Cornelius" target="Voltemand" id="214" weight="1" />
-      <edge source="Cornelius" target="Players (Actors)" id="215" weight="2" />
-      <edge source="Cornelius" target="First Player" id="216" weight="2" />
-      <edge source="Messenger" target="Queen Gertrude" id="217" weight="1" />
-      <edge source="Fortinbras" target="Francisco" id="218" weight="1" />
-      <edge source="Fortinbras" target="Marcellus" id="219" weight="1" />
-      <edge source="Fortinbras" target="Horatio" id="220" weight="1" />
-      <edge source="Fortinbras" target="Ghost" id="221" weight="1" />
-      <edge source="Fortinbras" target="Hamlet" id="222" weight="1" />
-      <edge source="Ambassadors from Norway" target="King Claudius" id="223" weight="2" />
-      <edge source="Ambassadors from Norway" target="Queen Gertrude" id="224" weight="2" />
-      <edge source="Ambassadors from Norway" target="Rosencrantz" id="225" weight="2" />
-      <edge source="Ambassadors from Norway" target="Guildenstern" id="226" weight="2" />
-      <edge source="Ambassadors from Norway" target="Attendants" id="227" weight="2" />
-      <edge source="Ambassadors from Norway" target="Polonius" id="228" weight="2" />
-      <edge source="Ambassadors from Norway" target="Voltemand" id="229" weight="1" />
-      <edge source="Ambassadors from Norway" target="Cornelius" id="230" weight="2" />
-      <edge source="Ambassadors from Norway" target="Hamlet" id="231" weight="2" />
-      <edge source="Ambassadors from Norway" target="Players (Actors)" id="232" weight="2" />
-      <edge source="Ambassadors from Norway" target="First Player" id="233" weight="2" />
-      <edge source="Ambassadors from Norway" target="Voltimand" id="234" weight="1" />
-      <edge source="Players (Actors)" target="Queen Gertrude" id="235" weight="2" />
-      <edge source="Players (Actors)" target="Rosencrantz" id="236" weight="2" />
-      <edge source="Players (Actors)" target="Polonius" id="237" weight="2" />
-      <edge source="Players (Actors)" target="Voltemand" id="238" weight="1" />
-      <edge source="Players (Actors)" target="Voltimand" id="239" weight="1" />
-      <edge source="Gentleman" target="Queen Gertrude" id="240" weight="1" />
-      <edge source="Gentleman" target="Horatio" id="241" weight="1" />
-      <edge source="Gentleman" target="Ophelia" id="242" weight="1" />
-      <edge source="Gentleman" target="King Claudius" id="243" weight="1" />
-      <edge source="Gentleman" target="Laertes" id="244" weight="1" />
-      <edge source="Lord" target="Queen Gertrude" id="245" weight="1" />
-      <edge source="Lord" target="Osric" id="246" weight="1" />
-      <edge source="Lord" target="Prince Fortinbras" id="247" weight="1" />
+      <edge source="Cornelius" target="First Player" id="214" weight="2" />
+      <edge source="Messenger" target="Queen Gertrude" id="215" weight="1" />
+      <edge source="Messenger" target="Messenger" id="216">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Fortinbras" target="Francisco" id="217" weight="1" />
+      <edge source="Fortinbras" target="Marcellus" id="218" weight="1" />
+      <edge source="Fortinbras" target="Horatio" id="219" weight="1" />
+      <edge source="Fortinbras" target="Ghost" id="220" weight="1" />
+      <edge source="Fortinbras" target="Hamlet" id="221" weight="1" />
+      <edge source="Fortinbras" target="Fortinbras" id="222">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
     </edges>
   </graph>
 </gexf>
