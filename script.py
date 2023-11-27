@@ -2,6 +2,8 @@
 import pandas as pd
 import networkx as nx
 import json
+
+
 # Load the character pairs and their counts from the CSV file
 result_df = pd.read_csv('co/character_pairs_counts.csv')
 
@@ -126,10 +128,7 @@ if all('weight' in G[u][v] for u, v in G.edges()):
 plt.show()
 
 # Specify the path where you want to save the Gephi file
-gephi_file_path = 'graph/draft.gephi'
+gephi_file_path = 'graph/draft.gexf'
 
 # Write the graph to a Gephi file
 nx.write_gexf(G, gephi_file_path)
-
-print(f"The graph has been exported to: {gephi_file_path}")
-
