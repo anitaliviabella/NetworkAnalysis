@@ -1,0 +1,38 @@
+Character1,Character2,Number of Interactions
+Bernardo,Francisco,1
+Bernardo,Ghost,1
+Francisco,Ghost,1
+Horatio,Marcellus,1
+Horatio,Hamlet,3
+King Claudius,Queen Gertrude,6
+King Claudius,Laertes,5
+Hamlet,Queen Gertrude,3
+King Claudius,Hamlet,4
+Hamlet,Ghost,2
+Laertes,Ophelia,1
+Polonius,Ophelia,2
+Polonius,Laertes,1
+Polonius,Reynaldo,1
+Rosencrantz,Guildenstern,5
+Hamlet,Players,3
+King Claudius,Ambassadors from Norway,1
+Polonius,King Claudius,3
+Hamlet,Ophelia,3
+Hamlet,Polonius,3
+Hamlet,Hamlet,6
+Hamlet,First Player,1
+Hamlet,Rosencrantz,4
+Hamlet,Guildenstern,4
+King Claudius,King Claudius,3
+Polonius,Queen Gertrude,1
+King Claudius,Rosencrantz,1
+King Claudius,Guildenstern,1
+The Servant,Horatio,1
+First Sailor,Horatio,1
+Messenger,King Claudius,1
+Queen Gertrude,Laertes,1
+Clowns,Clowns,1
+Hamlet,Clowns,1
+Laertes,Hamlet,2
+Hamlet,Osric,1
+Hamlet,Fortinbras,1

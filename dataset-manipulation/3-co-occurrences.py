@@ -5,64 +5,6 @@ from matplotlib import pyplot
 import matplotlib.pyplot as plt
 import csv
 
-#-----------------------------All characters ---------------------------------
-#list of the characters 
-characters_list = ['Hamlet', 'King Claudius', 'Queen Gertrude', 'Horatio', 'Polonius', 'Laertes', 'Ophelia', 'Bernardo', 'Francisco', 'Marcellus', 'Ghost', 'King Fortinbras', 'Voltimand', 'Lords', 'Attendants', 'Rosencrantz', 'Guildenstern', 'Ambassadors from Norway', 'Players', 'First Player', 'Reynaldo', 'Lucianus', 'Player King', 'Player Queen', 'Prince Fortinbras', 'Captain', 'Gentlemen', 'Servant', 'First Sailor', 'First Clown', 'Second Clown', 'Priest', 'First Ambassador', 'Osric', 'A Lord', 'Cornelius', 'Messenger', 'Fortinbras']
-
-# Dizionario
-genere_dict = {
-    'Hamlet': 'Male',
-    'King Claudius': 'Male',
-    'Queen Gertrude' : 'Female',
-    'Horatio': 'Male',
-    'Polonius': 'Male',
-    'Laertes': 'Male',
-    'Ophelia': 'Female',
-    'Bernardo': 'Male',
-    'Francisco': 'Male',
-    'Marcellus': 'Male',
-    'Ghost': 'Male',
-    'King Fortinbras': 'Male',
-    'Voltimand': 'Male',
-    'Lords': 'Male',
-    'Attendants': 'Male',
-    'Rosencrantz': 'Male',
-    'Guildenstern': 'Male',
-    'Ambassadors from Norway': 'Male',
-    'Players': 'Male',
-    'First Player': 'Male',
-    'Reynaldo': 'Male',
-    'Lucianus': 'Male',
-    'Player King': 'Male',
-    'Player Queen': 'Male', 
-    'Prince Fortinbras': 'Male', 
-    'Captain': 'Male', 
-    'Gentlemen': 'Male',
-    'Servant': 'Male',
-    'First Sailor': 'Male',
-    'First Clown': 'Male',
-    'Second Clown': 'Male', 
-    'Priest': 'Male',
-    'First Ambassador': 'Male',
-    'Osric': 'Male',
-    'A Lord': 'Male',
-    'Cornelius': 'Male',
-    'Messenger': 'Male',
-    'Fortinbras': 'Male',
-
-}
-
-# Creazione del DataFrame
-attributes_df = pd.DataFrame(list(genere_dict.items()), columns=['Character', 'Gender'])
-
-# Aggiunta delle colonne vuote 'role' e 'place'
-attributes_df = attributes_df.assign(Role='', Place='')
-
-# Salvataggio in un file CSV
-attributes_df.to_csv('attributes/attributes.csv', index=False)
-
-
-
 #--------------------------Couples of co-apperences---------------------------------
 def process_scene_csv(file_path):
     # Read CSV file into a pandas DataFrame
@@ -113,5 +55,3 @@ result_df.to_csv('co/character_pairs_counts.csv', index=False)
 #for edge in G.edges(data=True):
     #print(f"Edge: {edge[0]} - {edge[1]}, Weight: {edge[2]['weight']}")
 
-    
-#------------------------------INTERACTIONS--------------------------------- 

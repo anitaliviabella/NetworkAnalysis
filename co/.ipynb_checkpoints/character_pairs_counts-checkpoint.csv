@@ -3,55 +3,55 @@ Character Pair,Count
 "('Francisco', 'Marcellus')",1
 "('Francisco', 'Horatio')",1
 "('Francisco', 'Ghost')",1
-"('Francisco', 'King Fortinbras')",1
+"('Fortinbras', 'Francisco')",1
 "('Francisco', 'Hamlet')",1
 "('Bernardo', 'Marcellus')",2
 "('Bernardo', 'Horatio')",2
 "('Bernardo', 'Ghost')",1
-"('Bernardo', 'King Fortinbras')",1
+"('Bernardo', 'Fortinbras')",1
 "('Bernardo', 'Hamlet')",2
 "('Horatio', 'Marcellus')",4
 "('Ghost', 'Marcellus')",3
-"('King Fortinbras', 'Marcellus')",1
+"('Fortinbras', 'Marcellus')",1
 "('Hamlet', 'Marcellus')",4
 "('Ghost', 'Horatio')",3
-"('Horatio', 'King Fortinbras')",1
+"('Fortinbras', 'Horatio')",1
 "('Hamlet', 'Horatio')",7
-"('Ghost', 'King Fortinbras')",1
+"('Fortinbras', 'Ghost')",1
 "('Ghost', 'Hamlet')",4
-"('Hamlet', 'King Fortinbras')",1
-"('King Claudius', 'Queen Gertrude')",9
-"('Hamlet', 'King Claudius')",8
-"('King Claudius', 'Polonius')",5
+"('Fortinbras', 'Hamlet')",1
+"('King Claudius', 'Queen Gertrude')",10
+"('Hamlet', 'King Claudius')",9
+"('King Claudius', 'Polonius')",6
 "('King Claudius', 'Laertes')",5
 "('King Claudius', 'Voltimand')",2
-"('Cornelius', 'King Claudius')",2
+"('Cornelius', 'King Claudius')",3
 "('King Claudius', 'Lords')",1
-"('Attendants', 'King Claudius')",2
+"('Attendants', 'King Claudius')",3
 "('Horatio', 'King Claudius')",5
 "('King Claudius', 'Marcellus')",1
 "('Bernardo', 'King Claudius')",1
-"('Hamlet', 'Queen Gertrude')",7
-"('Polonius', 'Queen Gertrude')",5
+"('Hamlet', 'Queen Gertrude')",8
+"('Polonius', 'Queen Gertrude')",6
 "('Laertes', 'Queen Gertrude')",5
 "('Queen Gertrude', 'Voltimand')",2
-"('Cornelius', 'Queen Gertrude')",2
+"('Cornelius', 'Queen Gertrude')",3
 "('Lords', 'Queen Gertrude')",1
-"('Attendants', 'Queen Gertrude')",2
+"('Attendants', 'Queen Gertrude')",3
 "('Horatio', 'Queen Gertrude')",5
 "('Marcellus', 'Queen Gertrude')",1
 "('Bernardo', 'Queen Gertrude')",1
-"('Hamlet', 'Polonius')",6
+"('Hamlet', 'Polonius')",7
 "('Hamlet', 'Laertes')",3
 "('Hamlet', 'Voltimand')",2
-"('Cornelius', 'Hamlet')",2
+"('Cornelius', 'Hamlet')",3
 "('Hamlet', 'Lords')",1
-"('Attendants', 'Hamlet')",2
-"('Laertes', 'Polonius')",2
+"('Attendants', 'Hamlet')",3
+"('Laertes', 'Polonius')",1
 "('Polonius', 'Voltimand')",2
-"('Cornelius', 'Polonius')",2
+"('Cornelius', 'Polonius')",3
 "('Lords', 'Polonius')",1
-"('Attendants', 'Polonius')",2
+"('Attendants', 'Polonius')",3
 "('Horatio', 'Polonius')",2
 "('Marcellus', 'Polonius')",1
 "('Bernardo', 'Polonius')",1
@@ -69,7 +69,7 @@ Character Pair,Count
 "('Marcellus', 'Voltimand')",1
 "('Bernardo', 'Voltimand')",1
 "('Cornelius', 'Lords')",1
-"('Attendants', 'Cornelius')",2
+"('Attendants', 'Cornelius')",3
 "('Cornelius', 'Horatio')",1
 "('Cornelius', 'Marcellus')",1
 "('Bernardo', 'Cornelius')",1
@@ -80,55 +80,65 @@ Character Pair,Count
 "('Attendants', 'Horatio')",1
 "('Attendants', 'Marcellus')",1
 "('Attendants', 'Bernardo')",1
-"('Laertes', 'Ophelia')",2
-"('Ophelia', 'Polonius')",4
+"('King Claudius', 'Rosencrantz')",7
+"('Guildenstern', 'King Claudius')",7
+"('King Claudius', 'Voltemand')",1
+"('Ambassadors from Norway', 'King Claudius')",2
+"('King Claudius', 'Players (Actors)')",2
+"('First Player', 'King Claudius')",3
+"('Queen Gertrude', 'Rosencrantz')",5
+"('Guildenstern', 'Queen Gertrude')",5
+"('Queen Gertrude', 'Voltemand')",1
+"('Ambassadors from Norway', 'Queen Gertrude')",2
+"('Players (Actors)', 'Queen Gertrude')",2
+"('First Player', 'Queen Gertrude')",3
+"('Guildenstern', 'Rosencrantz')",9
+"('Attendants', 'Rosencrantz')",2
+"('Polonius', 'Rosencrantz')",5
+"('Rosencrantz', 'Voltemand')",1
+"('Cornelius', 'Rosencrantz')",2
+"('Ambassadors from Norway', 'Rosencrantz')",2
+"('Hamlet', 'Rosencrantz')",8
+"('Players (Actors)', 'Rosencrantz')",2
+"('First Player', 'Rosencrantz')",3
+"('Attendants', 'Guildenstern')",2
+"('Guildenstern', 'Polonius')",5
+"('Guildenstern', 'Voltemand')",1
+"('Cornelius', 'Guildenstern')",2
+"('Ambassadors from Norway', 'Guildenstern')",2
+"('Guildenstern', 'Hamlet')",8
+"('Guildenstern', 'Players (Actors)')",2
+"('First Player', 'Guildenstern')",3
+"('Attendants', 'Voltemand')",1
+"('Ambassadors from Norway', 'Attendants')",2
+"('Attendants', 'Players (Actors)')",2
+"('Attendants', 'First Player')",2
+"('Polonius', 'Voltemand')",1
+"('Ambassadors from Norway', 'Polonius')",2
+"('Players (Actors)', 'Polonius')",2
+"('First Player', 'Polonius')",3
+"('Cornelius', 'Voltemand')",1
+"('Ambassadors from Norway', 'Voltemand')",1
+"('Hamlet', 'Voltemand')",1
+"('Players (Actors)', 'Voltemand')",1
+"('First Player', 'Voltemand')",1
+"('Ambassadors from Norway', 'Cornelius')",2
+"('Cornelius', 'Players (Actors)')",2
+"('Cornelius', 'First Player')",2
+"('Ambassadors from Norway', 'Hamlet')",2
+"('Ambassadors from Norway', 'Players (Actors)')",2
+"('Ambassadors from Norway', 'First Player')",2
+"('Hamlet', 'Players (Actors)')",2
+"('First Player', 'Hamlet')",3
+"('First Player', 'Players (Actors)')",2
 "('Polonius', 'Reynaldo')",1
+"('Ophelia', 'Polonius')",3
 "('Ophelia', 'Reynaldo')",1
-"('King Claudius', 'Rosencrantz')",6
-"('Guildenstern', 'King Claudius')",6
-"('Ambassadors', 'King Claudius')",1
-"('King Claudius', 'Players')",1
-"('First Player', 'King Claudius')",2
-"('Queen Gertrude', 'Rosencrantz')",4
-"('Guildenstern', 'Queen Gertrude')",4
-"('Ambassadors', 'Queen Gertrude')",1
-"('Players', 'Queen Gertrude')",1
-"('First Player', 'Queen Gertrude')",2
-"('Guildenstern', 'Rosencrantz')",8
-"('Attendants', 'Rosencrantz')",1
-"('Polonius', 'Rosencrantz')",4
 "('Rosencrantz', 'Voltimand')",1
-"('Cornelius', 'Rosencrantz')",1
-"('Ambassadors', 'Rosencrantz')",1
-"('Hamlet', 'Rosencrantz')",7
-"('Players', 'Rosencrantz')",1
-"('First Player', 'Rosencrantz')",2
-"('Attendants', 'Guildenstern')",1
-"('Guildenstern', 'Polonius')",4
 "('Guildenstern', 'Voltimand')",1
-"('Cornelius', 'Guildenstern')",1
-"('Ambassadors', 'Guildenstern')",1
-"('Guildenstern', 'Hamlet')",7
-"('Guildenstern', 'Players')",1
-"('First Player', 'Guildenstern')",2
-"('Ambassadors', 'Attendants')",1
-"('Attendants', 'Players')",1
-"('Attendants', 'First Player')",1
-"('Ambassadors', 'Polonius')",1
-"('Players', 'Polonius')",1
-"('First Player', 'Polonius')",2
-"('Ambassadors', 'Voltimand')",1
-"('Players', 'Voltimand')",1
+"('Ambassadors from Norway', 'Voltimand')",1
+"('Players (Actors)', 'Voltimand')",1
 "('First Player', 'Voltimand')",1
-"('Ambassadors', 'Cornelius')",1
-"('Cornelius', 'Players')",1
-"('Cornelius', 'First Player')",1
-"('Ambassadors', 'Hamlet')",1
-"('Ambassadors', 'Players')",1
-"('Ambassadors', 'First Player')",1
-"('Hamlet', 'Players')",1
-"('First Player', 'Hamlet')",2
-"('First Player', 'Players')",1
 "('King Claudius', 'Ophelia')",3
 "('Ophelia', 'Queen Gertrude')",3
 "('Ophelia', 'Rosencrantz')",2
@@ -169,12 +179,16 @@ Character Pair,Count
 "('Ophelia', 'Player King')",1
 "('King Claudius', 'Player Queen')",1
 "('Ophelia', 'Player Queen')",1
+"('Polonius', 'Queen Margaret')",1
+"('Hamlet', 'Queen Margaret')",1
+"('Queen Gertrude', 'Queen Margaret')",1
+"('Ghost', 'Queen Margaret')",1
 "('Ghost', 'Polonius')",1
 "('Ghost', 'Queen Gertrude')",1
-"('Captain', 'Fortinbras')",1
-"('Fortinbras', 'Hamlet')",2
-"('Fortinbras', 'Rosencrantz')",1
-"('Fortinbras', 'Guildenstern')",1
+"('Captain', 'Prince Fortinbras')",1
+"('Hamlet', 'Prince Fortinbras')",2
+"('Prince Fortinbras', 'Rosencrantz')",1
+"('Guildenstern', 'Prince Fortinbras')",1
 "('Captain', 'Hamlet')",1
 "('Captain', 'Rosencrantz')",1
 "('Captain', 'Guildenstern')",1
@@ -183,6 +197,7 @@ Character Pair,Count
 "('Gentleman', 'Ophelia')",1
 "('Gentleman', 'King Claudius')",1
 "('Gentleman', 'Laertes')",1
+"('Laertes', 'Ophelia')",1
 "('Horatio', 'Servant')",1
 "('First Sailor', 'Horatio')",1
 "('First Sailor', 'Servant')",1
@@ -208,27 +223,27 @@ Character Pair,Count
 "('King Claudius', 'Priest')",1
 "('Priest', 'Queen Gertrude')",1
 "('Hamlet', 'Osric')",1
-"('A Lord', 'Hamlet')",1
+"('Hamlet', 'Lord')",1
 "('First Ambassador', 'Hamlet')",1
 "('Horatio', 'Osric')",1
-"('A Lord', 'Horatio')",1
-"('Fortinbras', 'Horatio')",1
+"('Horatio', 'Lord')",1
+"('Horatio', 'Prince Fortinbras')",1
 "('First Ambassador', 'Horatio')",1
 "('King Claudius', 'Osric')",1
-"('A Lord', 'King Claudius')",1
-"('Fortinbras', 'King Claudius')",1
+"('King Claudius', 'Lord')",1
+"('King Claudius', 'Prince Fortinbras')",1
 "('First Ambassador', 'King Claudius')",1
 "('Osric', 'Queen Gertrude')",1
-"('A Lord', 'Queen Gertrude')",1
-"('Fortinbras', 'Queen Gertrude')",1
+"('Lord', 'Queen Gertrude')",1
+"('Prince Fortinbras', 'Queen Gertrude')",1
 "('First Ambassador', 'Queen Gertrude')",1
 "('Laertes', 'Osric')",1
-"('A Lord', 'Laertes')",1
-"('Fortinbras', 'Laertes')",1
+"('Laertes', 'Lord')",1
+"('Laertes', 'Prince Fortinbras')",1
 "('First Ambassador', 'Laertes')",1
-"('A Lord', 'Osric')",1
-"('Fortinbras', 'Osric')",1
+"('Lord', 'Osric')",1
+"('Osric', 'Prince Fortinbras')",1
 "('First Ambassador', 'Osric')",1
-"('A Lord', 'Fortinbras')",1
-"('A Lord', 'First Ambassador')",1
-"('First Ambassador', 'Fortinbras')",1
+"('Lord', 'Prince Fortinbras')",1
+"('First Ambassador', 'Lord')",1
+"('First Ambassador', 'Prince Fortinbras')",1

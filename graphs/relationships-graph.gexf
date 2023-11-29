@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-11-29">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="selfloop" type="boolean" />
+      <attribute id="1" title="Gender" type="string" />
+      <attribute id="2" title="Role" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Hamlet" label="Hamlet">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Protagonist" />
+        </attvalues>
+      </node>
+      <node id="King Claudius" label="King Claudius">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Queen Gertrude" label="Queen Gertrude">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Female" />
+          <attvalue for="2" value="Contagonist" />
+        </attvalues>
+      </node>
+      <node id="Horatio" label="Horatio">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Polonius" label="Polonius">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Laertes" label="Laertes">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Foil" />
+        </attvalues>
+      </node>
+      <node id="Ophelia" label="Ophelia">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Female" />
+          <attvalue for="2" value="Love Intrest" />
+        </attvalues>
+      </node>
+      <node id="Bernardo" label="Bernardo">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Francisco" label="Francisco">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Marcellus" label="Marcellus">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Ghost" label="Ghost">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Guide" />
+        </attvalues>
+      </node>
+      <node id="King Fortinbras" label="King Fortinbras">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Background Character" />
+        </attvalues>
+      </node>
+      <node id="Voltimand" label="Voltimand">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Lords" label="Lords">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Attendants" label="Attendants">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Rosencrantz" label="Rosencrantz">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Henchmen" />
+        </attvalues>
+      </node>
+      <node id="Guildenstern" label="Guildenstern">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Henchmen" />
+        </attvalues>
+      </node>
+      <node id="Ambassadors from Norway" label="Ambassadors from Norway">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Players" label="Players">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="First Player" label="First Player">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Reynaldo" label="Reynaldo">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporing Character" />
+        </attvalues>
+      </node>
+      <node id="Lucianus" label="Lucianus">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Player King" label="Player King">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Charachter" />
+        </attvalues>
+      </node>
+      <node id="Player Queen" label="Player Queen">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Gentlemen" label="Gentlemen">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Background Character" />
+        </attvalues>
+      </node>
+      <node id="Servant" label="Servant">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="First Sailor" label="First Sailor">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="First Clown" label="First Clown">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Second Clown" label="Second Clown">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Priest" label="Priest">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="First Ambassador" label="First Ambassador">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Osric" label="Osric">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="A Lord" label="A Lord">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Cornelius" label="Cornelius">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Supporting Character" />
+        </attvalues>
+      </node>
+      <node id="Messenger" label="Messenger">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Secondary Character" />
+        </attvalues>
+      </node>
+      <node id="Fortinbras" label="Fortinbras">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Deuntagonist" />
+        </attvalues>
+      </node>
+      <node id="Ladies" label="Ladies">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Female" />
+          <attvalue for="2" value="Background Character" />
+        </attvalues>
+      </node>
+      <node id="Sailors" label="Sailors">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="Male" />
+          <attvalue for="2" value="Background Character" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Hamlet" target="Ghost" id="0">
+        <attvalues>
+          <attvalue for="3" value="Son Of" />
+        </attvalues>
+      </edge>
+      <edge source="Hamlet" target="King Claudius" id="1">
+        <attvalues>
+          <attvalue for="3" value="Uncle Of" />
+        </attvalues>
+      </edge>
+      <edge source="Hamlet" target="Horatio" id="2">
+        <attvalues>
+          <attvalue for="3" value="Friend Of" />
+        </attvalues>
+      </edge>
+      <edge source="Hamlet" target="Ophelia" id="3">
+        <attvalues>
+          <attvalue for="3" value="Fiancee Of" />
+        </attvalues>
+      </edge>
+      <edge source="Hamlet" target="Queen Gertrude" id="4">
+        <attvalues>
+          <attvalue for="3" value="Mother Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Ghost" id="5">
+        <attvalues>
+          <attvalue for="3" value="Brother Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Queen Gertrude" id="6">
+        <attvalues>
+          <attvalue for="3" value="Wife Of" />
+        </attvalues>
+      </edge>
+      <edge source="Laertes" target="Ophelia" id="7">
+        <attvalues>
+          <attvalue for="3" value="Sister Of" />
+        </attvalues>
+      </edge>
+      <edge source="Rosencrantz" target="Guildenstern" id="8">
+        <attvalues>
+          <attvalue for="3" value="Companion Of" />
+        </attvalues>
+      </edge>
+      <edge source="Captain" target="Fortinbras" id="9">
+        <attvalues>
+          <attvalue for="3" value="Messenger Of" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
