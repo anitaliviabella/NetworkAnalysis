@@ -38,6 +38,7 @@ for node in characters_list:
 #------RELATIONSHIPS-----------
 # Load relationships from JSON file
 # Load the relationships data from the CSV file
+
 relationships_df = pd.read_csv('relationships/relationships.csv')
 
 # Add edges with labels based on relationships

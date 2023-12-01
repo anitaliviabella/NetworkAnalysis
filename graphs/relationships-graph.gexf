@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-11-29">
+  <meta lastmodifieddate="2023-11-30">
     <creator>NetworkX 3.0</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -313,29 +313,64 @@
           <attvalue for="3" value="Mother Of" />
         </attvalues>
       </edge>
-      <edge source="King Claudius" target="Ghost" id="5">
-        <attvalues>
-          <attvalue for="3" value="Brother Of" />
-        </attvalues>
-      </edge>
-      <edge source="King Claudius" target="Queen Gertrude" id="6">
-        <attvalues>
-          <attvalue for="3" value="Wife Of" />
-        </attvalues>
-      </edge>
-      <edge source="Laertes" target="Ophelia" id="7">
-        <attvalues>
-          <attvalue for="3" value="Sister Of" />
-        </attvalues>
-      </edge>
-      <edge source="Rosencrantz" target="Guildenstern" id="8">
+      <edge source="Hamlet" target="Rosencrantz" id="5">
         <attvalues>
           <attvalue for="3" value="Companion Of" />
         </attvalues>
       </edge>
-      <edge source="Captain" target="Fortinbras" id="9">
+      <edge source="Hamlet" target="Guildenstern" id="6">
         <attvalues>
-          <attvalue for="3" value="Messenger Of" />
+          <attvalue for="3" value="Companion Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Ghost" id="7">
+        <attvalues>
+          <attvalue for="3" value="Brother Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Queen Gertrude" id="8">
+        <attvalues>
+          <attvalue for="3" value="Wife Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Rosencrantz" id="9">
+        <attvalues>
+          <attvalue for="3" value="Confident Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Guildenstern" id="10">
+        <attvalues>
+          <attvalue for="3" value="Confident Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Claudius" target="Polonius" id="11">
+        <attvalues>
+          <attvalue for="3" value="Confident Of" />
+        </attvalues>
+      </edge>
+      <edge source="Polonius" target="Laertes" id="12">
+        <attvalues>
+          <attvalue for="3" value="Son Of" />
+        </attvalues>
+      </edge>
+      <edge source="Polonius" target="Ophelia" id="13">
+        <attvalues>
+          <attvalue for="3" value="Daughter Of" />
+        </attvalues>
+      </edge>
+      <edge source="Polonius" target="Reynaldo" id="14">
+        <attvalues>
+          <attvalue for="3" value="Servant Of" />
+        </attvalues>
+      </edge>
+      <edge source="Laertes" target="Ophelia" id="15">
+        <attvalues>
+          <attvalue for="3" value="Sister Of" />
+        </attvalues>
+      </edge>
+      <edge source="King Fortinbras" target="Fortinbras" id="16">
+        <attvalues>
+          <attvalue for="3" value="Son Of" />
         </attvalues>
       </edge>
     </edges>

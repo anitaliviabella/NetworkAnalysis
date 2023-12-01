@@ -19,33 +19,42 @@ json_data = '''
         "mother_of": "Hamlet",
         "wife_of": "King Claudius"
     },
-    "Polonius": {
-        "father_of": [
-            "Laertes",
-            "Ophelia"
-        ]
-    },
+
     "Laertes": {
-        "brother_of": "Ophelia"
+        "brother_of": "Ophelia",
+        "son_of": "Polonius"
     },
+
     "Ophelia": {
         "sister_of": "Laertes",
-        "fiancee_of": "Hamlet"
+        "fiancee_of": "Hamlet",
+        "daughter_of": "Polonius"
     },
+
     "Horatio": {
         "friend_of": "Hamlet"
     },
+
     "Rosencrantz": {
-        "companion_of": "Guildenstern"
+        "companion_of": "Hamlet",
+        "confident_of": "King Claudius"
+        
     },
     "Guildenstern": {
-        "companion_of": "Rosencrantz"
+        "companion_of": "Hamlet",
+        "confident_of": "King Claudius"
     },
-    "Reynalds": {
+
+    "Reynaldo": {
         "servant_of": "Polonius"
     },
-    "Captain": {
-        "messenger_of": "Fortinbras"
+
+    "Fortinbras" : {
+        "son_of": "King Fortinbras"
+    },
+
+    "Polonius": {
+        "confident_of": "King Claudius"
     }
 }
 '''

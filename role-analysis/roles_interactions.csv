@@ -1,0 +1,9 @@
+Role1,Antagonist,Confidant,Contagonist,Deuntagonist,Foil,Guide,Henchmen,Love Intrest,Protagonist,Secondary Character,Supporing Character,Supporting Character
+Antagonist,3,0,6,0,5,0,2,0,4,1,0,0
+Confidant,3,0,1,0,1,0,0,2,3,0,1,1
+Contagonist,0,0,0,0,1,0,0,0,0,0,0,0
+Foil,0,0,0,0,0,0,0,1,2,0,0,0
+Henchmen,0,0,0,0,0,0,5,0,0,0,0,0
+Protagonist,0,3,3,1,0,2,8,3,6,0,0,5
+Secondary Character,1,1,0,0,0,0,0,0,0,0,0,0
+Supporting Character,0,0,0,0,0,2,0,0,0,0,0,1
