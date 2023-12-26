@@ -1,0 +1,392 @@
+{
+    "Degree Centrality": {
+        "Hamlet": 0.4,
+        "King Claudius": 0.25,
+        "Queen Gertrude": 0.1,
+        "Horatio": 0.1,
+        "Polonius": 0.15000000000000002,
+        "Laertes": 0.125,
+        "Ophelia": 0.07500000000000001,
+        "Bernardo": 0.05,
+        "Francisco": 0.05,
+        "Marcellus": 0.025,
+        "Ghost": 0.07500000000000001,
+        "King Fortinbras": 0.0,
+        "Voltimand": 0.0,
+        "Lords": 0.0,
+        "Attendants": 0.0,
+        "Rosencrantz": 0.07500000000000001,
+        "Guildenstern": 0.07500000000000001,
+        "Ambassadors from Norway": 0.025,
+        "Players": 0.025,
+        "First Player": 0.025,
+        "Reynaldo": 0.025,
+        "Lucianus": 0.0,
+        "Player King": 0.0,
+        "Player Queen": 0.0,
+        "Captain": 0.0,
+        "Gentlemen": 0.0,
+        "Servant": 0.0,
+        "First Sailor": 0.025,
+        "First Clown": 0.0,
+        "Second Clown": 0.0,
+        "Priest": 0.0,
+        "First Ambassador": 0.0,
+        "Osric": 0.025,
+        "A Lord": 0.0,
+        "Cornelius": 0.0,
+        "Messenger": 0.025,
+        "Fortinbras": 0.025,
+        "Ladies": 0.0,
+        "Sailors": 0.0,
+        "The Servant": 0.025,
+        "Clowns": 0.07500000000000001
+    },
+    "Betweenness Centrality": {
+        "Hamlet": 0.23632478632478635,
+        "King Claudius": 0.057692307692307696,
+        "Queen Gertrude": 0.0,
+        "Horatio": 0.07692307692307693,
+        "Polonius": 0.028632478632478635,
+        "Laertes": 0.0017094017094017096,
+        "Ophelia": 0.0,
+        "Bernardo": 0.0,
+        "Francisco": 0.0,
+        "Marcellus": 0.0,
+        "Ghost": 0.05128205128205128,
+        "King Fortinbras": 0.0,
+        "Voltimand": 0.0,
+        "Lords": 0.0,
+        "Attendants": 0.0,
+        "Rosencrantz": 0.0,
+        "Guildenstern": 0.0,
+        "Ambassadors from Norway": 0.0,
+        "Players": 0.0,
+        "First Player": 0.0,
+        "Reynaldo": 0.0,
+        "Lucianus": 0.0,
+        "Player King": 0.0,
+        "Player Queen": 0.0,
+        "Captain": 0.0,
+        "Gentlemen": 0.0,
+        "Servant": 0.0,
+        "First Sailor": 0.0,
+        "First Clown": 0.0,
+        "Second Clown": 0.0,
+        "Priest": 0.0,
+        "First Ambassador": 0.0,
+        "Osric": 0.0,
+        "A Lord": 0.0,
+        "Cornelius": 0.0,
+        "Messenger": 0.0,
+        "Fortinbras": 0.0,
+        "Ladies": 0.0,
+        "Sailors": 0.0,
+        "The Servant": 0.0,
+        "Clowns": 0.0
+    },
+    "Closeness Centrality": {
+        "Hamlet": 0.4033333333333333,
+        "King Claudius": 0.29512195121951224,
+        "Queen Gertrude": 0.2688888888888889,
+        "Horatio": 0.2688888888888889,
+        "Polonius": 0.28139534883720935,
+        "Laertes": 0.275,
+        "Ophelia": 0.2520833333333333,
+        "Bernardo": 0.18059701492537314,
+        "Francisco": 0.18059701492537314,
+        "Marcellus": 0.18333333333333335,
+        "Ghost": 0.25744680851063834,
+        "King Fortinbras": 0.0,
+        "Voltimand": 0.0,
+        "Lords": 0.0,
+        "Attendants": 0.0,
+        "Rosencrantz": 0.25744680851063834,
+        "Guildenstern": 0.25744680851063834,
+        "Ambassadors from Norway": 0.19516129032258067,
+        "Players": 0.23725490196078433,
+        "First Player": 0.23725490196078433,
+        "Reynaldo": 0.18906250000000002,
+        "Lucianus": 0.0,
+        "Player King": 0.0,
+        "Player Queen": 0.0,
+        "Captain": 0.0,
+        "Gentlemen": 0.0,
+        "Servant": 0.0,
+        "First Sailor": 0.18333333333333335,
+        "First Clown": 0.0,
+        "Second Clown": 0.0,
+        "Priest": 0.0,
+        "First Ambassador": 0.0,
+        "Osric": 0.23725490196078433,
+        "A Lord": 0.0,
+        "Cornelius": 0.0,
+        "Messenger": 0.19516129032258067,
+        "Fortinbras": 0.23725490196078433,
+        "Ladies": 0.0,
+        "Sailors": 0.0,
+        "The Servant": 0.18333333333333335,
+        "Clowns": 0.23725490196078433
+    },
+    "Communities": {
+        "Hamlet": 8,
+        "King Claudius": 1,
+        "Queen Gertrude": 1,
+        "Horatio": 2,
+        "Polonius": 1,
+        "Laertes": 1,
+        "Ophelia": 8,
+        "Bernardo": 3,
+        "Francisco": 3,
+        "Marcellus": 2,
+        "Ghost": 3,
+        "King Fortinbras": 4,
+        "Voltimand": 5,
+        "Lords": 6,
+        "Attendants": 7,
+        "Rosencrantz": 8,
+        "Guildenstern": 8,
+        "Ambassadors from Norway": 1,
+        "Players": 8,
+        "First Player": 8,
+        "Reynaldo": 1,
+        "Lucianus": 9,
+        "Player King": 10,
+        "Player Queen": 11,
+        "Captain": 12,
+        "Gentlemen": 13,
+        "Servant": 14,
+        "First Sailor": 2,
+        "First Clown": 15,
+        "Second Clown": 16,
+        "Priest": 17,
+        "First Ambassador": 18,
+        "Osric": 8,
+        "A Lord": 19,
+        "Cornelius": 20,
+        "Messenger": 1,
+        "Fortinbras": 8,
+        "Ladies": 21,
+        "Sailors": 22,
+        "The Servant": 2,
+        "Clowns": 0
+    },
+    "Local clustering": {
+        "Hamlet": 0.12087912087912088,
+        "King Claudius": 0.32142857142857145,
+        "Queen Gertrude": 1.0,
+        "Horatio": 0,
+        "Polonius": 0.5333333333333333,
+        "Laertes": 0.8,
+        "Ophelia": 1.0,
+        "Bernardo": 1.0,
+        "Francisco": 1.0,
+        "Marcellus": 0,
+        "Ghost": 0.3333333333333333,
+        "King Fortinbras": 0,
+        "Voltimand": 0,
+        "Lords": 0,
+        "Attendants": 0,
+        "Rosencrantz": 1.0,
+        "Guildenstern": 1.0,
+        "Ambassadors from Norway": 0,
+        "Players": 0,
+        "First Player": 0,
+        "Reynaldo": 0,
+        "Lucianus": 0,
+        "Player King": 0,
+        "Player Queen": 0,
+        "Captain": 0,
+        "Gentlemen": 0,
+        "Servant": 0,
+        "First Sailor": 0,
+        "First Clown": 0,
+        "Second Clown": 0,
+        "Priest": 0,
+        "First Ambassador": 0,
+        "Osric": 0,
+        "A Lord": 0,
+        "Cornelius": 0,
+        "Messenger": 0,
+        "Fortinbras": 0,
+        "Ladies": 0,
+        "Sailors": 0,
+        "The Servant": 0,
+        "Clowns": 0
+    },
+    "Eigenvector Centrality": {
+        "Hamlet": 0.5633170152769772,
+        "King Claudius": 0.42806572448063185,
+        "Queen Gertrude": 0.28147498654331954,
+        "Horatio": 0.10732522240421528,
+        "Polonius": 0.3202992283937059,
+        "Laertes": 0.3120966368046103,
+        "Ophelia": 0.2072720991161195,
+        "Bernardo": 0.022083577179789517,
+        "Francisco": 0.022083577179789517,
+        "Marcellus": 0.0186048937122376,
+        "Ghost": 0.10530641640284137,
+        "King Fortinbras": 1.4492472412575323e-14,
+        "Voltimand": 1.4492472412575323e-14,
+        "Lords": 1.4492472412575323e-14,
+        "Attendants": 1.4492472412575323e-14,
+        "Rosencrantz": 0.20788893304088393,
+        "Guildenstern": 0.20788893304088393,
+        "Ambassadors from Norway": 0.0742028874272145,
+        "Players": 0.0976493554698114,
+        "First Player": 0.0976493554698114,
+        "Reynaldo": 0.055522295899259694,
+        "Lucianus": 1.4492472412575323e-14,
+        "Player King": 1.4492472412575323e-14,
+        "Player Queen": 1.4492472412575323e-14,
+        "Captain": 1.4492472412575323e-14,
+        "Gentlemen": 1.4492472412575323e-14,
+        "Servant": 1.4492472412575323e-14,
+        "First Sailor": 0.0186048937122376,
+        "First Clown": 1.4492472412575323e-14,
+        "Second Clown": 1.4492472412575323e-14,
+        "Priest": 1.4492472412575323e-14,
+        "First Ambassador": 1.4492472412575323e-14,
+        "Osric": 0.0976493554698114,
+        "A Lord": 1.4492472412575323e-14,
+        "Cornelius": 1.4492472412575323e-14,
+        "Messenger": 0.0742028874272145,
+        "Fortinbras": 0.0976493554698114,
+        "Ladies": 1.4492472412575323e-14,
+        "Sailors": 1.4492472412575323e-14,
+        "The Servant": 0.0186048937122376,
+        "Clowns": 0.11812651189719633
+    },
+    "Cliques": [
+        [
+            "Player Queen"
+        ],
+        [
+            "A Lord"
+        ],
+        [
+            "The Servant",
+            "Horatio"
+        ],
+        [
+            "Servant"
+        ],
+        [
+            "Ladies"
+        ],
+        [
+            "Attendants"
+        ],
+        [
+            "Lords"
+        ],
+        [
+            "Player King"
+        ],
+        [
+            "Cornelius"
+        ],
+        [
+            "Gentlemen"
+        ],
+        [
+            "Reynaldo",
+            "Polonius"
+        ],
+        [
+            "Captain"
+        ],
+        [
+            "Second Clown"
+        ],
+        [
+            "Lucianus"
+        ],
+        [
+            "Bernardo",
+            "Francisco",
+            "Ghost"
+        ],
+        [
+            "Priest"
+        ],
+        [
+            "First Ambassador"
+        ],
+        [
+            "King Fortinbras"
+        ],
+        [
+            "First Clown"
+        ],
+        [
+            "Marcellus",
+            "Horatio"
+        ],
+        [
+            "Sailors"
+        ],
+        [
+            "First Sailor",
+            "Horatio"
+        ],
+        [
+            "Voltimand"
+        ],
+        [
+            "Ambassadors from Norway",
+            "King Claudius"
+        ],
+        [
+            "Messenger",
+            "King Claudius"
+        ],
+        [
+            "Hamlet",
+            "Ophelia",
+            "Polonius",
+            "Laertes"
+        ],
+        [
+            "Hamlet",
+            "Osric"
+        ],
+        [
+            "Hamlet",
+            "Ghost"
+        ],
+        [
+            "Hamlet",
+            "Horatio"
+        ],
+        [
+            "Hamlet",
+            "King Claudius",
+            "Polonius",
+            "Queen Gertrude",
+            "Laertes"
+        ],
+        [
+            "Hamlet",
+            "King Claudius",
+            "Guildenstern",
+            "Rosencrantz"
+        ],
+        [
+            "Hamlet",
+            "First Player"
+        ],
+        [
+            "Hamlet",
+            "Clowns"
+        ],
+        [
+            "Hamlet",
+            "Fortinbras"
+        ],
+        [
+            "Hamlet",
+            "Players"
+        ]
+    ]
+}
