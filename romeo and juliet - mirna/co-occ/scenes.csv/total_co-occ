@@ -1,0 +1,51 @@
+import csv
+
+# Dati per le scene
+scene_data = [
+    ["Personaggi"],
+    ["Benvolio", "Tybald", "Lord Capulet", "Lady Capulet", "Lord Montague", "Lady Montague", "Romeo"],
+    ["Lord Capulet", "Paris", "Romeo", "Benvolio"],
+    ["Lady Capulet", "Nurse", "Juliet"],
+    ["Romeo", "Benvolio", "Mercutio"],
+    ["Juliet", "Nurse"],
+    ["Romeo", "Mercutio", "Benvolio"],
+    ["Romeo", "Juliet"],
+    ["Friar Lawrence", "Romeo"],
+    ["Mercutio", "Benvolio", "Romeo", "Nurse"],
+    ["Nurse", "Juliet"],
+    ["Friar Lawrence", "Romeo", "Juliet"],
+    ["Mercutio", "Benvolio", "Tybald", "Romeo"],
+    ["Nurse", "Juliet"],
+    ["Friar Lawrence", "Nurse", "Romeo"],
+    ["Lady Capulet", "Lord Capulet", "Paris"],
+    ["Lady Capulet", "Romeo", "Juliet", "Lord Capulet", "Nurse"],
+    ["Friar Lawrence", "Paris", "Juliet"],
+    ["Lord Capulet", "Nurse", "Juliet"],
+    ["Lady Capulet", "Juliet"],
+    ["Lady Capulet", "Nurse", "Lord Capulet"],
+    ["Nurse", "Lady Capulet", "Lord Capulet", "Friar Lawrence", "Paris"],
+    ["Romeo"],
+    ["Friar Lawrence"],
+    ["Paris", "Romeo", "Friar Lawrence", "Lord Capulet", "Lady Capulet", "Lord Montague"],
+
+]
+
+# Insieme per le co-occorrenze complessive
+total_co_occurrences = set()
+
+# Itera attraverso i dati di ogni scena
+for scene in scene_data[1:]:
+    # Aggiungi le co-occorrenze di questa scena all'insieme totale
+    total_co_occurrences.update(scene)
+
+# Converte l'insieme totale in una lista per poter salvarlo come CSV
+total_co_occurrences_list = list(total_co_occurrences)
+
+# Salvataggio della tabella generale delle co-occorrenze
+csv_filename = 'total_co_occurrences.csv'
+with open(csv_filename, 'w', newline='') as csv_file:
+    csv_writer = csv.writer(csv_file)
+
+    # Scrittura dei dati nel file CSV
+    csv_writer.writerow(["Personaggi"])
+    csv_writer.writerow(total_co_occurrences_list)

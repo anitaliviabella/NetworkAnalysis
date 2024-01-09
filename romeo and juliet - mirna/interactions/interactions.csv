@@ -1,0 +1,22 @@
+Character1,Character2,Number of Interactions
+Romeo,Juliet,6
+Romeo,Mercutio,3
+Romeo,Benvolio,4
+Romeo,Nurse,2
+Juliet,Nurse,4
+Juliet,Paris,1
+Paris,Romeo,1
+Friar Lawrence,Romeo,5
+Friar Lawrence,Juliet,3
+Lord Capulet,Romeo,3
+Lord Capulet,Juliet,1
+Paris,Lord Capulet,4
+Lady Capulet,Juliet,1
+Lady Capulet,Nurse,2
+Lady Montague,Lord Montague,3
+Lord Montague,Lord Capulet,2
+Friar Lawrence,Paris,1
+Tybalt,Lord Capulet,2
+Tybalt,Benvolio,3
+Tybalt,Mercutio,2
+Tybalt,Romeo,3

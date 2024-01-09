@@ -1,0 +1,17 @@
+import csv
+
+# Dati per le scene
+scene_data = [
+    ["Characters"],
+    ["Romeo", "Benvolio", "Mercutio"],
+]
+
+# Salvataggio di un file CSV per ogni scena
+for i, scene in enumerate(scene_data[1:], start=1):  # Inizia dalla seconda riga (ignorando l'intestazione)
+    csv_filename = f'scene_{i}.csv'
+
+    with open(csv_filename, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+
+        # Scrittura dei dati nel file CSV
+        csv_writer.writerow(scene)

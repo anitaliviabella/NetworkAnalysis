@@ -1,0 +1,62 @@
+import csv
+from collections import Counter
+
+# Dati per le scene
+scene_data = [
+    ["Personaggi"],
+    ["Benvolio", "Tybald", "Lord Capulet", "Lady Capulet", "Lord Montague", "Lady Montague", "Romeo"],
+    ["Lord Capulet", "Paris", "Romeo", "Benvolio"],
+    ["Lady Capulet", "Nurse", "Juliet"],
+    ["Romeo", "Benvolio", "Mercutio"],
+    ["Juliet", "Nurse"],
+    ["Romeo", "Mercutio", "Benvolio"],
+    ["Romeo", "Juliet"],
+    ["Friar Lawrence", "Romeo"],
+    ["Mercutio", "Benvolio", "Romeo", "Nurse"],
+    ["Nurse", "Juliet"],
+    ["Friar Lawrence", "Romeo", "Juliet"],
+    ["Mercutio", "Benvolio", "Tybald", "Romeo"],
+    ["Nurse", "Juliet"],
+    ["Friar Lawrence", "Nurse", "Romeo"],
+    ["Lady Capulet", "Lord Capulet", "Paris"],
+    ["Lady Capulet", "Romeo", "Juliet", "Lord Capulet", "Nurse"],
+    ["Friar Lawrence", "Paris", "Juliet"],
+    ["Lord Capulet", "Nurse", "Juliet"],
+    ["Lady Capulet", "Juliet"],
+    ["Lady Capulet", "Nurse", "Lord Capulet"],
+    ["Nurse", "Lady Capulet", "Lord Capulet", "Friar Lawrence", "Paris"],
+    ["Romeo"],
+    ["Friar Lawrence"],
+    ["Paris", "Romeo", "Friar Lawrence", "Lord Capulet", "Lady Capulet", "Lord Montague"],
+]
+
+# Inizializza un contatore per le co-occorrenze
+total_co_occurrences_counter = Counter()
+
+# Itera attraverso i dati di ogni scena
+for scene in scene_data[1:]:
+    # Incrementa il contatore per ogni coppia di personaggi nella scena
+    combinations = [(char1, char2) for char1 in scene for char2 in scene if char1 != char2]
+    total_co_occurrences_counter.update(combinations)
+
+# Ottieni la lista dei personaggi unici
+unique_characters = list(set([character for scene in scene_data[1:] for character in scene]))
+
+# Costruisci la tabella generale delle co-occorrenze
+table_data = [["Personaggi"] + unique_characters]
+
+for character_row in unique_characters:
+    row = [character_row]
+    for character_col in unique_characters:
+        # Aggiungi il conteggio dalla coppia di personaggi corrispondente nel contatore
+        row.append(total_co_occurrences_counter[(character_row, character_col)])
+    
+    table_data.append(row)
+
+# Salvataggio della tabella generale delle co-occorrenze
+csv_filename = 'total_co_occurrences_table.csv'
+with open(csv_filename, 'w', newline='') as csv_file:
+    csv_writer = csv.writer(csv_file)
+
+    # Scrittura dei dati nel file CSV
+    csv_writer.writerows(table_data)
